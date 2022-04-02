@@ -30,7 +30,9 @@
         <div class="login-main-text">
            <h2 class="mb-4">Guia do DEV<br> Página de login</h2>
            <p>Faça Login ou registre-se para aceessar nosso site!</p>
-           <img src="assets/344-3446023_programmer-clipart.png" class="img-thumbnail  rounded mx-auto d-block " style="background-color: transparent; border: none; ">
+           <div class="image">
+             <img src="assets/344-3446023_programmer-clipart.png" class="img-thumbnail  rounded mx-auto d-block imagem " style="background-color: transparent; border: none; ">
+           </div>
           
         </div>
         
@@ -38,16 +40,16 @@
      <div class="main">
         <div class="col-md-6 col-sm-12">
            <div class="login-form">
-              <form>
-                 <div class="form-group">
+              <form action="conexao.php" method="get" >
+                 <div class="form-group mb-4">
                     <label>User Name</label>
                     <input type="text" class="form-control" placeholder="User Name">
                  </div>
                  <div class="form-group">
                     <label>Password</label>
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control mb-5" placeholder="Password">
                  </div>
-                 <button type="submit" class="btn btn-black">Login</button>
+                 <button type="submit" class="btn btn-black  m-2" name="nome">Login</button>
                  <button type="submit" class="btn btn-secondary">Register</button>
               </form>
            </div>
