@@ -31,7 +31,7 @@
            <h2 class="mb-4">Guia do DEV<br> Página de login</h2>
            <p>Faça Login ou registre-se para aceessar nosso site!</p>
            <div class="image">
-             <img src="assets/344-3446023_programmer-clipart.png" class="img-thumbnail  rounded mx-auto d-block imagem " style="background-color: transparent; border: none; ">
+             <img src="assets/344-3446023_programmer-clipart.png" class="img-thumbnail  rounded mx-auto d-block  " style="background-color: transparent; border: none; width:70%; padding-top: 30px; ">
            </div>
           
         </div>
@@ -40,17 +40,21 @@
      <div class="main">
         <div class="col-md-6 col-sm-12">
            <div class="login-form">
-              <form action="conexao.php" method="get" >
+              <form action="conexao.php" method="post" >
                  <div class="form-group mb-4">
-                    <label>User Name</label>
-                    <input type="text" class="form-control" placeholder="User Name">
+                    <label>Usuário</label>
+                    <input type="text" class="form-control" name="nome" placeholder="Insira o seu nome de usuário">
                  </div>
                  <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" class="form-control mb-5" placeholder="Password">
+                    <label>Senha</label>
+                    <input type="password" class="form-control mb-5" placeholder="Insira sua senha">
                  </div>
-                 <button type="submit" class="btn btn-black  m-2" name="nome">Login</button>
-                 <button type="submit" class="btn btn-secondary">Register</button>
+                 <button type="submit" class="btn btn-black  m-2" name="nome" style="color:#fff;">Login</button>
+                 <form action="registro.php" method="post">
+                    <a href="registro.php" class="btn btn-secondary">Registre-se!</a>
+                   
+                 </form>
+                 
               </form>
            </div>
         </div>

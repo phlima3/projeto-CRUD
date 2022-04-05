@@ -32,19 +32,10 @@ img{
     height: 100% !important;
 }
 
-
-.imagem{
-    animation: anim-image 10s linear infinite;
+.btn{
+    color: #fff !important;
 }
 
-@keyframes anim-image {
-    from {
-        transform: translateY(0px);
-    }
-    to {
-        transform: translateY(-20px);
-    }
-}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -99,3 +90,4 @@ img{
     background-color: #000 !important;
     color: #fff;
 }
+

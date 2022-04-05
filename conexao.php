@@ -1,7 +1,7 @@
 <?php
 
 
-$valor = $_GET ["nome"];
+$valor = $_POST ["nome"];
 echo $valor; 
 
 $servername = "localhost";
