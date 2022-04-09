@@ -26,11 +26,14 @@
 
   </head>
   <body>
+  <div class="d-grid gap-2 d-md-block">
+  <a class="btn btn-primary" href="index.php" type="button"><-VOLTAR</a>
+  
+</div>
       <div class="container d-flex justify-content-center " >
     <form class="form-registro" style="margin-top:20%">
   <fieldset>
     <legend>Cadastre-se!</legend>
-    <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Endereço de email</label>
     <input type="email" class="form-control" id="exampleInputEmail1"aria-describedby="emailHelp" placeholder="Seu email">

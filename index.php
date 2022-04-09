@@ -42,8 +42,8 @@
            <div class="login-form">
               <form action="conexao.php" method="post" >
                  <div class="form-group mb-4">
-                    <label>Usuário</label>
-                    <input type="text" class="form-control" name="nome" placeholder="Insira o seu nome de usuário">
+                    <label>Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Insira seu endereço de email">
                  </div>
                  <div class="form-group">
                     <label>Senha</label>
